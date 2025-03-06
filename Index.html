@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <div id="BigDIV">
+        <div id="myDiv">
+            <label id="myLabel">Enter the guess number</label>
+            <input type="number" id="Num">
+
+            </br>
+            <button onclick="myFunc()" id="myBtn">Check</button>
+            <br>
+
+            <p id="myPara1">Remeninig Chances</p>
+            <div id="myChances"> </div>
+
+        </div>
+
+        <div>
+            <p id="myPara"></p>
+        </div>
+
+        <div id="RulesDiv">
+            <ul>
+                <li>You Have 10 Chances to Guess The Correct Number</li>
+                <br>
+                <li>The goal is to guess a randomly generated number within a specified range (e.g., 1 to 100).</li>
+                <br>
+                <li>If your guess is too low, you’ll see:
+                    "User Entered Input is less than the Random Number"</li>
+                <br>
+                <li>If your guess is too high, you’ll see:
+                    "User Entered Input is greater than the Random Number"</li>
+                <br>
+                <li>If your guess is correct, you’ll see:
+                    "Yessss! Your Guess is Correct!"</li>
+                <br>
+                <li>You win if you guess the correct number within the allowed attempts.
+                </li>
+                <br>
+                <li>If you use all attempts without guessing correctly, you lose, and the correct number is revealed.
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
